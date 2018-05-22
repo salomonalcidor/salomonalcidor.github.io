@@ -1,20 +1,29 @@
 {
 	"experience":[
-		{
+    {
+      "type": "Work",
+      "institution": "Harris County Budget MAnagement Department",
+      "title": "Junior Web Developer",
+      "from": "2018-01-08",
+      "to": "2018-06-22",
+      "description": "Provide I.T. Support for the 9th Circuit, which included Orlando and Kissimmee\nProvide Photographical support to the Investigations Team\nManages the various websites of the attornies",
+      "default_item": true
+    },
+    {
 			"type":"Work",
 			"institution":"Public Defender's Office, 9th Circuit",
 			"title":"County I.T. Tech",
 			"from":"2017-01-23",
-			"to":"2017-05-04",
+			"to":"2017-07-25",
 			"description":"Provide I.T. Support for the 9th Circuit, which included Orlando and Kissimmee\nProvide Photographical support to the Investigations Team\nManages the various websites of the attornies",
-			"default_item":true
+			"default_item":false
 		},
 		{
 			"type":"Work",
 			"institution":"Innovative Logix, LLC",
 			"title":"County Data Migrator",
-			"from":"2017-01-04",
-			"to":"2016-11-02",
+			"from":"2016-10-04",
+			"to":"2017-01-05",
 			"description":"Data migration for the public schools of Orange County /n Skills used: HTML, CSS, JS",
 			"default_item":false
 		},
@@ -22,8 +31,8 @@
 			"type":"Work",
 			"institution":"Alpha Beta Commerce",
 			"title":"Web/Mobile Developer",
-			"from":"2016-07-15",
-			"to":"2015-12-01",
+			"from":"2015-12-15",
+			"to":"2016-07-15",
 			"description":"Created a PSD to HTML Website\nManaged company site through use of Wordpress",
 			"default_item":false
 		},
@@ -31,8 +40,8 @@
 			"type":"Work",
 			"institution":"Team IBR LLC.",
 			"title":"Junior Web Developer",
-			"from":"2016-05-01",
-			"to":"2015-05-01",
+			"from":"2015-05-01",
+			"to":"2016-05-01",
 			"description":"Junior web developer\nGraphics recreation\nIncorporated E-commerce method into existing sites",
 			"default_item":false
 		},
@@ -48,7 +57,7 @@
 		{
 			"type":"Work",
 			"institution":"Staples Inc.",
-			"title":"Material Handler / Drivery Support II",
+			"title":"Material Handler / Driver Support II",
 			"from":"2013-08-01",
 			"to":"2015-04-10",
 			"description":"Warehousing and Inventory Control",
