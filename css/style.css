@@ -1,0 +1,87 @@
+/* CSS Document */
+
+/*GLOBAL STYLES*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Heebo', sans-serif;
+}
+
+h1 {
+	font-size: 6.7rem;
+}
+
+a {
+	color:#000;
+}
+
+.site_title {
+	color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+/*THIS IS USED TO ALLOW COLOR CYCLE TO ACTIVATE*/
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+/*--SPECIFIC TO SECTION 1--*/
+.myface {
+	background-image: url("../img/bw.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+}
+
+/*--SPECIFIC TO SECTION 2--*/
+.whitecard {
+	background-color: #fff;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pulse {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.divider {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+}
+
+/*--SPECIFIC TO SECTION 3--*/
+.hero {
+	background-image: url("../img/IMG_3824.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	background-size:cover;}
+/*--SPECIFIC TO SECTION 4--*/
+
+/*--SPECIFIC TO SECTION 5--*/
+.hero1 {
+	background-image: url("../img/IMG_8765.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	background-size:cover;}
+/*--SPECIFIC TO SECTION 6--*/
+
+

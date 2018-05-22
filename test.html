@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script src="http://germanlena.com.ar/assets/js/min/d3resume.all.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+  <title>Experience &amp; Studies</title>
+</head>
+
+  <body>
+
+<div id="experience"></div>
+
+<script>
+var resume = new d3Resume({
+  width: 900,
+  height: 900,
+  wrapperSelector: "experience",
+  dataUrl: 'test.json',
+  getItemFillCollor: function (item) {
+    return '#' + (function co(lor){   return (lor +=
+      [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f'][Math.floor(Math.random()*16)])
+      && (lor.length == 6) ?  lor : co(lor); })('');
+  }
+});
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>
